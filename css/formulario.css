@@ -3,18 +3,19 @@
     padding: 45px;
 }
 .agenda-titulo{
-    background: rgb(236, 222, 222);
+    background-image: url(../img/cortes_y_mas/mennu2.jpg);
     font-family: 'New Tegomin', serif;
     text-align: center;
     padding: 15px;
-    border-bottom: solid 5px red;
+    color: beige;
+    
     border-radius: 8px 8px 0px 0px;
 }
 
 .agenda-registro{
     width: 95%;
     margin: auto;
-    background: rgb(253, 255, 255);
+    background-image: url(../img/cortes_y_mas/mennu2.jpg);
     max-width: 500px;
     border-radius: 8px;
 }
@@ -32,6 +33,7 @@ input{
 /*creacion de columnas manuales*/
 .col-sm{
     width: 42%;
+    height: 42%;
 
 }
 .col-xl{
@@ -40,8 +42,30 @@ input{
 }
 
 .btn-registrar{
-    background: tomato;
+    background: rgb(160, 40, 18);
     color: white;
     margin: auto;
     margin-top: 10px;
+}
+
+
+
+.contenedor-input >label{
+    padding: 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'New Tegomin', serif;
+    color: beige;
+    
+}
+.contenedor-input select{
+    margin: 15px;
+    padding: 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'New Tegomin', serif;
+    font-size: 14px;
+    
 }
