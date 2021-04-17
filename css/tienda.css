@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+    
+    
+}
+
+#galeria-tienda h3, h4{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+#galeria-tienda .contenido{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 15px;
+    
+    
+}
+
+#galeria-tienda .contenido article img{
+    width: 320px;
+    height: 250px;
+    border-radius: 15px;
+    
+}
+#galeria-tienda article{
+    margin: 15px;
+}
+
+#galeria-tienda .contenido > article > a > img:hover{
+    transform: scale(1.1);
+    border-radius: 0; 
+    transition: all 0.5s;
+}
+
+
+
