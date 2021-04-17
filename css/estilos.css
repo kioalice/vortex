@@ -3,7 +3,7 @@
 @import url(bienvenida.css);
 @import url(blog.css);
 @import url(info.css);
-@import url(formulario.css);
+@import url(contacto.css);
 @import url(quienes_somos.css);
 @import url(servicios.css);
 
@@ -54,8 +54,8 @@ footer .contenedor{
     color: seashell;
     font-family: 'New Tegomin', serif;
     background: rgb(24, 23, 23);
+    
+    
       
 }
-
-
 

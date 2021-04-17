@@ -1,6 +1,4 @@
-function mensaje() {
-    alert('hola mundo');
-}
+
 
 function validarFormulario() {
     var resp = validarRut();
