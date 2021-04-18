@@ -66,4 +66,52 @@ footer .footer-pie img{
     
 }
 
+/*RESPONSIVE DESIGN : ADAPTABLE A DISP MOVIL*/
+
+@media screen and (max-width: 1220px){
+    .menu,
+    .contenedor-logo-principal,
+    .banner,
+    .bienvenida,
+    .blog,
+    .info,
+    .footer-pie
+    {
+        max-width: 1000px;
+        padding: 0 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 1020px){
+    .banner
+    .blog,
+    .info{
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+}
+
+@media screen and (max-width: 800px){
+    .menu
+    .banner
+    .blog,
+    .info{
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+}
+
+
 

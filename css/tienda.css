@@ -45,6 +45,42 @@
     transition: all 0.5s;
 }
 
+/*RESPONSIVE DESIGN : ADAPTABLE A DISP MOVIL*/
+
+@media screen and (max-width: 1220px){
+    
+    .banner,
+    .bienvenida,
+    .galeria-tienda,
+    .footer-pie
+    {
+        max-width: 1000px;
+        padding: 0 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 1020px){
+
+    
+    .banner,
+    .bienvenida,
+    .galeria-tienda,
+    .footer-pie{
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+
+
+}
+
+
+
 
 
 
