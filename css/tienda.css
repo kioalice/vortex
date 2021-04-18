@@ -77,6 +77,22 @@
 
 }
 
+@media screen and (max-width: 800px){
+    
+    .banner,
+    .bienvenida,
+    .galeria-tienda,
+    .footer-pie{
+        width: 100%;
+        
+        display: flex;
+        justify-content: center;
+        display: inline-block;
+        
+    }
+    
+}
+
 
 
 

@@ -64,3 +64,74 @@ h3{
     padding: 50px;
     justify-content: center;
 }
+
+/*RESPONSIVE DESIGN : ADAPTABLE A DISP MOVIL*/
+
+@media screen and (max-width: 1220px){
+    
+    .menu,
+    .contenedor-logo-principal,
+    .parrallax
+    .info-servicio,
+    .parrallax-2,
+    .info-servicio2,
+    .footer-pie
+    {
+        max-width: 1000px;
+        padding: 0 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 1020px){
+
+    
+    .menu,
+    .contenedor-logo-principal,
+    .parrallax
+    .info-servicio,
+    .parrallax-2,
+    .info-servicio2,
+    .footer-pie{
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+}
+@media screen and (max-width: 800px){
+    
+    .menu,
+    .contenedor-logo-principal,
+    .parrallax
+    .info-servicio,
+    .parrallax-2,
+    .info-servicio2,
+    .footer-pie{
+        width: 100%;
+        
+        display: flex;
+        justify-content: center;
+        display: inline-block;
+        
+    }
+    .info-servicio,
+    .img{
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 0;
+        justify-content: center;
+        
+        
+
+
+    }
+
+    
+}
