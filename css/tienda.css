@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+    
+    
+}
+
+#galeria-tienda .contenido h3, h4{
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    color: seashell;
+    font-family: 'New Tegomin', serif;
+    background-image: url(../img/cortes_y_mas/mennu2.jpg);
+    font-size: 15px;
+    
+}
+
+#galeria-tienda .contenido{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 15px;
+    
+    
+    
+}
+
+#galeria-tienda .contenido article img{
+    width: 320px;
+    height: 250px;
+    border-radius: 15px;
+    position: relative;
+    
+    
+    
+    
+}
+#galeria-tienda article{
+    margin: 15px;
+   
+}
+
+#galeria-tienda .contenido > article > a > img:hover{
+    transform: scale(1.1);
+    border-radius: 0; 
+    transition: all 0.5s;
+    
+}
+
+
+/*RESPONSIVE DESIGN : ADAPTABLE A DISP MOVIL*/
+
+@media screen and (max-width: 1220px){
+    
+    .banner,
+    .bienvenida,
+    .galeria-tienda,
+    .footer-pie
+    {
+        max-width: 1000px;
+        padding: 0 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 1020px){
+
+    
+    .banner,
+    .bienvenida,
+    .galeria-tienda,
+    .footer-pie{
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+}
+
+@media screen and (max-width: 800px){
+    
+    .banner,
+    .bienvenida,
+    .galeria-tienda,
+    .footer-pie{
+        width: 100%;
+        
+        display: flex;
+        justify-content: center;
+        display: inline-block;
+        
+    }
+    
+}
+
+
+
+
+

@@ -1,0 +1,78 @@
+
+
+.maps article { 
+    padding: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-image: url(../img/cortes_y_mas/mennu2.jpg);
+    
+}
+
+.maps article h2{
+    text-align:center;
+    flex-direction: column;
+    text-decoration: none;
+    padding: 20px;
+    color: seashell;
+    font-family: 'New Tegomin', serif;
+    font-size: 20px;
+    
+
+    
+}
+
+/*RESPONSIVE DESIGN : ADAPTABLE A DISP MOVIL*/
+
+@media screen and (max-width: 1220px){
+    
+    .bienvenida,
+    .blog,
+    .info,
+    .footer-pie
+    {
+        max-width: 1000px;
+        padding: 0 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 1020px){
+
+    
+    .bienvenida,
+    .maps,
+    .footer-pie{
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+
+
+}
+
+@media screen and (max-width: 800px){
+    
+    .bienvenida,
+    .footer-pie{
+        width: 100%;
+        
+        display: flex;
+        justify-content: center;
+        display: inline-block;
+        
+    }
+    .maps article { 
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        background-image: url(../img/cortes_y_mas/mennu2.jpg);
+        
+    }
+}
