@@ -1,2 +1,8 @@
-# Black_stones_barberpage
-Este es un proyecto personal
+# proyecto010V 
+creacion de sitio web Semestral 
+
+Integrado : 
+- Everette Moya
+- Mauricio Gabler
+- Camila Rifo
+- awdawdawawd
