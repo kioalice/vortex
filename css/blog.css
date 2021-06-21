@@ -1,13 +1,16 @@
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     
     
 }
 
+
 #blog h3, h4{
     text-align: center;
-    font-family: 'Cinzel', serif;
+    font-family: 'New Tegomin', serif;
+    font-size: 30px;
+    color: white;
 }
 
 #blog .contenedor{
@@ -16,13 +19,12 @@
     flex-wrap: wrap;
     margin: 15px;
     
-    
 }
 
 #blog .contenedor img{
     width: 250px;
     height: 250px;
-    border: solid 5px rgb(36, 14, 5);
+    border: solid 5px rgb(197, 191, 189);
     border-radius: 15px;
 
     
@@ -36,9 +38,8 @@
 }
 
 #blog .contenedor > article > img:hover{
-    transform: scale(1.1);
-    border-radius: 0; 
-    transition: all 0.5s;
+    transform: rotate(10deg) scale(1.1);
+    transition: all 1s;
 }
 
 

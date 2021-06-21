@@ -6,6 +6,23 @@
     
     
 }
+#bienvenida h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: white;
+}
+#bienvenida h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: white;
+}
+
+#bienvenida h2{
+    
+    font-size: 50px;
+    color: white;
+}
+
 #bienvenida .image img{
     width: 180px;
     height: 190px; 

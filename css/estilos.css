@@ -7,58 +7,74 @@
 @import url(quienes_somos.css);
 @import url(servicios.css);
 @import url(informaciones.css);
+@import url(banner_sucursal.css);
+@import url(barbers.css);
+@import url(agendarhora.css);
+@import url(iniciosesion.css);
+@import url(registrate.css);
+@import url(contactanos);
 
 
 
 *{
     margin: 0%;
     padding: 0%;
-    
-    
-}
+    /*box-sizing: border-box*/;
+ }
 
+
+body{
+    background: rgb(0, 0, 0);
+
+
+}
 
 header{
     width: 100%;
     height: 50px;
-    background-image: url(../img/cortes_y_mas/mennu2.jpg);
+    background-image: url(../img/cortes_y_mas/1.jpg);
     color: antiquewhite;
     position: fixed;
     z-index: 100;
 }
+
 h1{
     float: left;
 }
 
-.contenedor {
-    
-    width: 98%;
-    margin: auto;
+/*.contenedor {
+    width: fit-content;
 
-}
+}*/
 
 #contenedor-logo-principal{
+    width: fit-content;
     display: flex;
     align-items: center;
     
     
 }
-#contenedor-logo-principal >img{
+#contenedor-logo-principal > img{
     width: 50px;
     margin-left: 10px;
+    background: transparent;
 }
 
 
 
 footer .footer-pie{
+    
    
     text-align: center;
-    padding: center;
+    /*padding: center;*/
     color: seashell;
     font-family: 'New Tegomin', serif;
-    background: rgb(17, 16, 16);
-    margin-right: auto;
-    margin-left: auto;
+
+    background-image: url(../img/cortes_y_mas/1.jpg);
+    justify-content: center;
+    align-items: center;
+    
+
       
 }
 footer .footer-pie img{
@@ -67,68 +83,13 @@ footer .footer-pie img{
     height: 50px;
     
     
-}
-
-/*RESPONSIVE DESIGN : ADAPTABLE A DISP MOVIL*/
-
-@media screen and (max-width: 1220px){
     
-    .contenedor-logo-principal,
-    .banner,
-    .bienvenida,
-    .blog,
-    .info,
-    .footer-pie
-    {
-        max-width: 1000px;
-        padding: 0 20px; 
-    }
-
-
 }
 
-@media screen and (max-width: 1024px){
-    
-    .banner
-    .blog,
-    .info{
-        width: 100%;
-        flex-direction: column;
-        display: flex;
-        justify-content: center;
-    }
-
-
-
+.redes a {
+    text-decoration: none;
 }
 
-@media screen and (max-width: 800px){
-    
-    .banner
-    .blog,
-    .info{
-        width: 100%;
-        flex-direction: column;
-        display: flex;
-        justify-content: center;
-    }
-    .p{
-        flex-direction: column;
-    }
-    footer .footer-pie img{
-        padding: auto;
-        width: 55px;
-        height: 50px;
-        justify-content: center;
-        align-items: center;
-        
-        
-        
-    }
-
-
-
-}
 
 
 

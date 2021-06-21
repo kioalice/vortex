@@ -9,10 +9,18 @@
     border-top: solid 50px rgb(34, 33, 33);
     background: #333;
     
+    
+}
+
+#bienvenida p{
+    color: white;
+    font-size: 20px;
 }
 
 #sucursal{
     font-family: 'New Tegomin', serif;
+    color: white;
+    font-size: 30px;
     text-align: center;
     margin: 20px 0px;
     text-decoration: none;
@@ -34,21 +42,44 @@
 #sucursal .contenedor img{
     width: 250px;
     height: 250px;
-    border: solid 5px rgb(202, 103, 103);
+    border: solid 5px rgb(255, 251, 251);
     border-radius: 15px;
+    
+    
+
+
+    
 }
+#sucursal .contenedor img:hover {
+    transform:scale(1.1);
+    transition: all 0.5s;
+    border-radius: 50%;
+}
+
+
+
 #sucursal article{
     margin: 15px;
     
 }
-/*RESPONSIVE DESIGN : ADAPTABLE A DISP MOVIL*/
 
+
+
+@media (max-width: 562px){
+    #quienes_somos img {
+        width: 100%;
+    }
+}
+
+
+/*RESPONSIVE DESIGN : ADAPTABLE A DISP MOVIL*/
+/*
 @media screen and (max-width: 1220px){
     
     .banner,
     .bienvenida,
     .sucursal,
-    .quienes_somos,
+    .quienes_somos
     .footer-pie
     {
         max-width: 1000px;
@@ -92,3 +123,4 @@
 
     
 }
+*/

@@ -6,7 +6,8 @@
     text-align: center;
     padding: 20px;
     font-family: 'New Tegomin', serif;
-    background: #333;
+    font-size: 30px;
+    background: rgb(17, 16, 16);
     
     
 }
@@ -22,16 +23,18 @@
 
 .info-barberia img{
     
-    width: 180px;
-    height: 190px; 
-    border: solid 5px rgb(36, 14, 5);
+    width: 250px;
+    height: 350px; 
+    border: solid 5px rgb(197, 191, 189);
     border-radius: 20%;
+   
     
 
     
     
     
 }
+
 
 
 
@@ -41,9 +44,8 @@
 
 
 #info .contenedor .info-barberia > a > img:hover{
-    transform: scale(1.1);
-    border-radius: 0; 
-    transition: all 0.5s;    
+    transform: rotate(10deg) scale(1.1);
+    transition: all 0.7s;   
 }
 
 
